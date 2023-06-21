@@ -1,0 +1,46 @@
+nav {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--cor-texto);
+}
+.nav__item{
+    color: white;
+}
+.menu {
+    margin-right: 25px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 16px;
+    color: var(--cor-texto);
+}
+
+.logo__img {
+    width: 96px;
+    height: auto;
+}
+
+.login {
+    width: auto;
+    height: auto;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    color: var(--cor-texto);
+    background-color: var(--cor-principal);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+@media (max-width: 900px) {
+    nav {
+        margin-bottom: 16px;
+    }
+
+    .menu {
+        display: none;
+    }
+}

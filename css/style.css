@@ -1,0 +1,20 @@
+@import url(nav.css);
+@import url(variaveis.css);
+@import url(header.css);
+@import url(sobre.css);
+@import url(login.css);
+@import url(utils.css);
+@import url(barbeiros.css);
+@import url(carousel.css);
+@import url(footer.css);
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+.servicos{
+    margin-top: 64px;
+}

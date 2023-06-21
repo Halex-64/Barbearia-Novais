@@ -1,0 +1,32 @@
+footer{
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-top: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+.img-footer{
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+    margin-top: 8px;
+    width: 72px;
+    height: 72px;
+}
+.footer-item{
+    color: white;
+}
+.developer{
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 900px){
+    footer{
+        display: flex;
+        align-items: center;
+        height: 101px;
+    }
+
+}

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --titulo: 'Montserrat', sans-serif;
+    --texto: "Roboto", sans-serif;
+    --texto-logo: "Roboto", sans-serif;
+    --cor-texto: #ffff;
+    --cor-texto-botao: #ffff;
+    --cor-principal: #cf974f;
+    --cor-botao-hover: #deb887;
+    --cor-fundo-barbeiros: #f4f1ec;
+}

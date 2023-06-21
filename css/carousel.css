@@ -1,0 +1,43 @@
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+ margin-top: 24px;
+ margin-bottom: 24px;
+}
+
+.carousel-cell {
+  width: 36%;
+  height: 300px;
+  margin-right: 16px;
+  border-radius: 15px;
+  background-color: var(--cor-fundo-barbeiros);
+}
+
+.card__carousel{
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img__carousel{
+    gap: 16px;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.carousel__stars{
+  margin-bottom: 24px;
+  width: 200px;
+}
+@media (max-width: 900px){
+  .carousel-cell{
+  width: 76%;
+  }
+}

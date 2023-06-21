@@ -1,0 +1,101 @@
+.titulo{
+    font-family: var(--titulo);
+    font-size: 2em;
+    letter-spacing: .2rem;
+}
+
+.titulo2{
+    font-family: var(--titulo);
+    font-weight: 600px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.titulo__logo{
+    font-family: var(--texto-logo);
+    font-size: 22px;
+}
+
+.titulo__logo__footer{
+    font-family: var(--texto-logo);
+    font-size: 22px;
+    color: white;
+}
+
+.subtitulo{
+    font-family: var(--titulo);
+    font-weight: 400px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtitulo2{
+    font-family: var(--titulo);
+    font-weight: 400px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.texto{
+    font-family: var(--texto);
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.textoFooterTitulo{
+    font-family: var(--texto);
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.textoFooter {
+    font-family: var(--texto);
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: normal;
+    box-shadow:
+    9.4px 6.4px 2.5px rgba(0, 0, 0, 0.05),
+    17.1px 11.6px 6.8px rgba(0, 0, 0, 0.123),
+    24.6px 16.6px 14.6px rgba(0, 0, 0, 0.133),
+    36.1px 24.4px 30px rgba(0, 0, 0, 0.13),
+    64.9px 43.8px 55.5px rgba(0, 0, 0, 0.122),
+    148px 100px 80px rgba(0, 0, 0, 0.11)
+  ;
+}
+
+.img__card{
+    width: 48px;
+    height: auto;
+}
+
+
+
+.div__cards{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.justificado{
+    text-align: justify;
+}

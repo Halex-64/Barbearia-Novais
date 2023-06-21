@@ -1,0 +1,32 @@
+.barbeiros{
+    background-color: var(--cor-fundo-barbeiros);
+    display: flex;
+    margin-top: 128px;
+    text-align: center;
+    
+}
+.img__barbeiro{
+    width: 400px;
+    height: auto;
+}
+.hgruop__barbeiros{
+    width: 400px;
+    margin: auto;
+}
+.texto__barbeiros{
+    margin-left: 24px ;
+    margin-right: 24px;
+}
+@media (max-width: 900px){
+    .barbeiros{
+        flex-direction: column;
+    }
+    .img__barbeiro{
+        width: 300px;
+        align-self: center;
+    }
+    .hgruop__barbeiros{
+        width: auto;
+        padding:8px;
+    }
+}

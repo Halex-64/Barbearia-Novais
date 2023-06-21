@@ -1,0 +1,48 @@
+.sobre {
+    font-family: var(--texto);
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.titulo__sobre {
+    margin-top: 64px;
+    font-size: 2em;
+    font-family: var(--titulo);
+    text-align: center;
+    letter-spacing: .2rem;
+}
+
+
+
+.imagem__sobre {
+    margin-left: 24px;
+    width: 400px;
+    height: auto;
+}
+
+.texto__sobre {
+    margin-top: 56px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: justify;
+    color: #5d5c59;
+}
+
+.hgruop__sobre {
+    width: 500px;
+}
+
+@media (max-width: 900px) {
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+    }
+    .imagem__sobre{
+        justify-content: center;
+        align-items: center;
+        width: 424px;
+    }
+}
